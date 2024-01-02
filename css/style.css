@@ -162,13 +162,14 @@ footer a {
     header {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         background-color: var(--azul_besouro) ;
         color: var(--branco_besouro);
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         height: 70px;
+        padding: 10px 25px 10px 25px;
     }
 
     header img {
