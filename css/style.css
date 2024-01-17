@@ -145,13 +145,27 @@ article {
 }
 
 footer {
-    height: 20px;
-    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    height: 580px;
+    padding: 32px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Outfit', sans-serif;
     background-color: var(--preto_besouro);
-    color: var(--azul_besouro);
+    color: var(--branco_besouro);
     text-align: center;
+    line-height: 1.6em;
+
+}
+
+footer h1 {
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 footer a {
@@ -293,13 +307,17 @@ footer a {
     
     
     footer {
-        width: 100%;
-        height: 20px;
+        display: flex;
+        justify-content: space-between;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Outfit', sans-serif;
         background-color: var(--preto_besouro);
         color: var(--branco_besouro);
         text-align: center;
+        width: auto;
+        height: 240px;
+        padding: 40px;
+        line-height: 1.6em;
     }
     footer a {
             color: var(--azul_besouro);
